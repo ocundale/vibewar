@@ -21,11 +21,8 @@ a {
     color:white!important;
 }
 body {
-    font-size: 1em;
+    font-size: 17px;
     line-height: 1.4;
-
-    
-    /*background:url('../img/greenbg_tile.gif');*/
 }
 img.bg {
   /* Set rules to fill background */
@@ -124,20 +121,101 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-background:#000;
+background:#FFF;
 }
 h1, p {
-font-size: 12vmax;
 text-align: center;
-color: #fff;
+color: #000;
+font-family: "Open Sans", arial, sans-serif;
 }
 p.email {
-font-size:2vmin;
+font-size:1em;
 margin-bottom: 20px;
 margin-top:50px;
 }
 a {
 text-decoration:none;
+}
+.tracklist {
+    margin:20px;
+}
+.tracklist p {
+    text-align: left;
+}
+#container {
+    padding:10px 20px;
+    background:url('../img/bw.png') center center no-repeat;
+    width: 900px;
+    margin: auto;
+}
+#container h1 {
+    margin-bottom: 30px;
+}
+.social {
+    margin:10px;
+    -moz-transition: all 0.7s ease 0s;
+    -webkit-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    width:32px;
+    height:35px;
+    display:block;
+}
+.releasedetails tr td:first-child {
+    font-weight: bold;
+}
+.icons li {
+    list-style: none;
+    float:left;
+}
+.social:hover {
+    opacity:0.8;
+}
+.facebook {
+    background: url(../img/facebook.png) -32px 0 no-repeat;
+}
+.youtube {
+    background: url(../img/youtube.png) -32px 0 no-repeat;
+}
+.soundcloud {
+    background: url(../img/soundcloud.png) -32px 0 no-repeat;
+}
+.googleplus {
+    background: url(../img/social.png) -32px 0 no-repeat;
+}
+.twitter {
+    background: url(../img/twitter.png) -32px 0 no-repeat;
+}
+.releasedetails {
+    float:left;
+}
+.artwork {
+    float:left;
+    width: 234px;
+    height: 234px;
+    border: 1px solid #DDD;
+}
+.footer {
+    margin-bottom: 18px;
+    padding: 15px 15px 5px 15px;
+    background: #F2F2F2;
+    float: left;
+width: 100%;
+}
+.footer .address {
+    border-top: 1px solid #dcdcdc;
+    color: #333;
+    font-size: 13px;
+    clear: both;
+    padding: 10px;
+}
+.footer .btn {
+    float:left;
+    margin:10px;
+}
+.footer .icons {
+    float:right;
 }
 /* ==========================================================================
    Helper classes

@@ -137,14 +137,16 @@ a {
 text-decoration:none;
 }
 .tracklist {
-    margin:20px;
+    margin:20px;ß
 }
 .tracklist p {
     text-align: left;
+    font-size: 14px;
 }
+
 #container {
     padding:10px 20px;
-    background:url('../img/bw.png') center center no-repeat;
+    background:url('../img/bw_bg.jpg') center center no-repeat;
     width: 900px;
     margin: auto;
 }
@@ -182,26 +184,36 @@ text-decoration:none;
     background: url(../img/soundcloud.png) -32px 0 no-repeat;
 }
 .googleplus {
-    background: url(../img/social.png) -32px 0 no-repeat;
+    background: url(../img/google.png) no-repeat;
+    background-size: 100%;
+    width:32px;
+    height:32px;
+    border-radius: 5px;
 }
 .twitter {
     background: url(../img/twitter.png) -32px 0 no-repeat;
 }
 .releasedetails {
     float:left;
+    width: 400px;
 }
 .artwork {
     float:left;
-    width: 234px;
-    height: 234px;
+    width: 245px;
+    height: 245px;
     border: 1px solid #DDD;
+    margin-right: 60px;
+}
+.summary {
+    margin:auto;
+    width:710px;
 }
 .footer {
     margin-bottom: 18px;
     padding: 15px 15px 5px 15px;
     background: #F2F2F2;
     float: left;
-width: 100%;
+    width: 100%;
 }
 .footer .address {
     border-top: 1px solid #dcdcdc;
@@ -216,6 +228,11 @@ width: 100%;
 }
 .footer .icons {
     float:right;
+}
+.maintext {
+    padding-top: 20px;
+    padding-bottom:10px;
+    clear:both;
 }
 /* ==========================================================================
    Helper classes

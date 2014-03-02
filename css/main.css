@@ -17,9 +17,7 @@ select,
 textarea {
     color: #222;
 }
-a {
-    color:white!important;
-}
+
 body {
     font-size: 17px;
     line-height: 1.4;
@@ -137,16 +135,19 @@ a {
 text-decoration:none;
 }
 .tracklist {
-    margin:20px;ß
+    margin:20px;
+
 }
 .tracklist p {
-    text-align: left;
+    text-align: center;
     font-size: 14px;
 }
-
+.tracklist h4 {
+    text-align: center;
+}
 #container {
     padding:10px 20px;
-    background:url('../img/bw_bg.jpg') center center no-repeat;
+    background: url('../img/bw_bg.jpg') center 470px no-repeat;
     width: 900px;
     margin: auto;
 }
@@ -209,7 +210,6 @@ text-decoration:none;
     width:710px;
 }
 .footer {
-    margin-bottom: 18px;
     padding: 15px 15px 5px 15px;
     background: #F2F2F2;
     float: left;

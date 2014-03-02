@@ -440,4 +440,8 @@ text-decoration:none;
     h3 {
         page-break-after: avoid;
     }
+    .footer .btn,
+    .footer .icons {
+        display:none;
+    }
 }

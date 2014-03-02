@@ -173,26 +173,27 @@ text-decoration:none;
     float:left;
 }
 .social:hover {
-    opacity:0.8;
+    opacity:0.7;
 }
 .facebook {
-    background: url(../img/facebook.png) -32px 0 no-repeat;
+    background: url(../img/facebook.png) no-repeat;
+    background-size: 100%;
 }
 .youtube {
-    background: url(../img/youtube.png) -32px 0 no-repeat;
+    background: url(../img/youtube.png) no-repeat;
+    background-size: 100%;
 }
 .soundcloud {
-    background: url(../img/soundcloud.png) -32px 0 no-repeat;
+    background: url(../img/soundcloud.png) no-repeat;
+    background-size: 100%;
 }
 .googleplus {
     background: url(../img/google.png) no-repeat;
     background-size: 100%;
-    width:32px;
-    height:32px;
-    border-radius: 5px;
 }
 .twitter {
-    background: url(../img/twitter.png) -32px 0 no-repeat;
+    background: url(../img/twitter.png) no-repeat;
+    background-size: 100%;
 }
 .releasedetails {
     float:left;

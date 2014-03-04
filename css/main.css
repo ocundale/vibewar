@@ -144,6 +144,7 @@ text-decoration:none;
 #container {
     padding:10px 20px;
     background: url('../img/bw_bg.jpg') center 470px no-repeat;
+    background-image: url('http://www.vibewar.co.uk/img/bw_bg.jpg');
     width: 900px;
     margin: auto;
 }
@@ -374,12 +375,19 @@ text-decoration:none;
 
 @media print {
     * {
-        background: transparent !important;
         color: #000 !important; /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
+    #container {
+    
+    }
+    iframe {
+        display:none;
+    }
+    .btn-info {
+        display:none;
+    }
     a,
     a:visited {
         text-decoration: underline;

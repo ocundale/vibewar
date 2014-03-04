@@ -45,10 +45,6 @@ img.bg {
     margin-left: -512px;   /* 50% */
   }
 }
-
-h3.invitationtext a {
-    color:black!important;
-}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate.

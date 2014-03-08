@@ -1,3 +1,3 @@
-conscious
+VibeWar
 =========
-Creative website, under construction
+Simple press site for Deeper Vibrations compilation album.

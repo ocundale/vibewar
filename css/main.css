@@ -201,14 +201,14 @@ text-decoration:none;
 }
 .artwork {
     float:left;
-    width: 245px;
-    height: 245px;
+    width: 280px;
+    height: 280px;
     border: 1px solid #DDD;
     margin-right: 60px;
 }
 .summary {
     margin:auto;
-    width:710px;
+    width:740px;
 }
 .footer {
     padding: 15px 15px 5px 15px;

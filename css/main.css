@@ -146,7 +146,7 @@ text-decoration:none;
 }
 #container {
     padding:10px 20px;
-    background: url('../img/bw_bg.jpg') center 470px no-repeat;
+    background: url('../img/bw_bg.jpg') center 590px no-repeat;
     background-image: url('http://www.vibewar.co.uk/img/bw_bg.jpg');
     width: 900px;
     margin: auto;
@@ -234,6 +234,9 @@ text-decoration:none;
     padding-top: 20px;
     padding-bottom:10px;
     clear:both;
+}
+.buybutton {
+    margin-left: 315px;
 }
 /* ==========================================================================
    Helper classes

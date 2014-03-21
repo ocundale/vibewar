@@ -26,7 +26,7 @@ img.bg {
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
-  display: none;    
+  display: none;
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
@@ -326,8 +326,19 @@ text-decoration:none;
     z-index: 5;
     display: none;
 }
-
-
+.press {
+    margin-top:35px;
+}
+.press img {
+    max-width: 180px;
+    float: left;
+    margin: 18px;
+    max-height: 110px;
+}
+.press img.thin {
+    max-width:280px;
+    padding-top:33px;
+}
 /*
  * Clearfix: contain floats
  *
@@ -386,7 +397,7 @@ text-decoration:none;
         text-shadow: none !important;
     }
     #container {
-    
+
     }
     iframe {
         display:none;

@@ -339,6 +339,12 @@ text-decoration:none;
     max-width:280px;
     padding-top:33px;
 }
+
+.ultra-small {
+    float: right;
+    font-size: 10px;
+}
+
 /*
  * Clearfix: contain floats
  *
